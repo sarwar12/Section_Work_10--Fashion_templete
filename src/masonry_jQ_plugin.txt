@@ -1,0 +1,19 @@
+### Masonry_JQuery_Plugin: (And masonry use wordpress)
+	https://unpkg.com/masonry-layout@4.2.2/dist/masonry.pkgd.min.js
+
+### Include File:
+	1) Jquery.min.js
+	2) masnry.min.js
+
+### HTML Markup:
+	<div class="product-list">
+  		<div class="grid-item">...</div>
+  		<div class="grid-item >...</div>
+  		<div class="grid-item">...</div>
+	</div>
+
+
+### JS MarkUP:
+	$(document).ready(function($){
+		$(".product-list").masonry();
+		});

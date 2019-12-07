@@ -1,0 +1,28 @@
+### Font:
+	1) Karla.ttf (https://fonts.google.com/)
+	2) Codelight (https://www.dafont.com/code.font)
+	3) Code bold (https://www.dafont.com/code.font)
+
+### Custom Font CSS Code:
+	@font-face{
+		font-family: Karla;
+		src:url(fonts/Karla-Bold.ttf);
+		}
+	@font-face{
+		font-family: Codelight;
+		src:url(fonts/Code-Light.ttf);
+		}
+	@font-face{
+		font-family: Codebold;
+		src:url(fonts/Code-Bold.ttf);
+		}
+
+### Font Generator: otf|eot to .ttf
+	https://www.web-font-generator.com/
+
+### NTH_CHILD: (Pseudo Class)
+     HTML: <ul>
+	     <li><a>Home</a></li>
+	     <li><a>Home</a></li>
+	</ul>
+   CSS : ul li:nth-child(2) a{font-size:20px;}
